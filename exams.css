@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    background: hotpink;
+    color: blue;
+    padding: 40px;
+}
+/*--HEADER /NAVBAR--*/
+header {
+    background: black;
+    color: blueviolet;
+    padding: 1 rem;
+}   
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-links a {
+    list-style:armenian;
+    display: flex;
+    gap:1rem;
+}
+.My button {
+    background: violet;
+    color: chartreuse;
+    padding: 2rem;
+    border: none;
+    border-radius: 20px;
+    margin-top: 1 rem;
+    font-size: 8rem;
+}
+
+/*FEATURE SECTION*/
+.feature {
+    padding:2rem;
+    text-align: center;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: 3fr;
+    gap:2rem;
+}
+.feature-card {
+    background: aqua;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 5px;
+}
+.feature-card img {
+    width: 30%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+}
