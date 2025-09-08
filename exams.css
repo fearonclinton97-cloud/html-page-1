@@ -18,7 +18,7 @@ nav {
     align-items: center;
 
 }
-.nav-links a {
+.nav-links {
     list-style:armenian;
     display: flex;
     gap:1rem;
